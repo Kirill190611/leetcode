@@ -33,7 +33,7 @@
 const mySqrt = x => {
     if (x < 2) return x;
 
-    let left = 0;
+    let left = 2;
     let right = x;
 
     while (left < right) {

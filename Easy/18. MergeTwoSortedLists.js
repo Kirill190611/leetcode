@@ -40,9 +40,9 @@
  * }
  */
 /**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
+ * @param { ListNode } list1
+ * @param { ListNode } list2
+ * @return { ListNode }
  */
 const mergeTwoLists = (list1, list2) => {
     let node = new ListNode(null),
